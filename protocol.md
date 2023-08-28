@@ -27,15 +27,7 @@ B= Button fram
 Button frames are fixed lenght starts with 'B' and end with '\n' with 64 uint8 (bool) values 1 = button pressed, 0 = button released. The fram is sent out every 100ms and an additional frame is sent out when a button is pressed.
 
 ## LED MAP
-
-                    *USB*
--------------------------
-|64,63,62,61,60,59,58,57|
-|.......................|
-|24,23,22,21,20,19,18,17|
-|16,15,14,13,12,11,10,9 |
-|8 ,7 ,6 ,5 ,4 ,3 ,2 ,1 |
--------------------------
+![LED MAP](led_map.jpg?raw=true "LED MAP")
 
 ## Demo code
 a long press of LED 1 will put the neo trellis board in a demo mode. This will cycle through a few fun patterns
